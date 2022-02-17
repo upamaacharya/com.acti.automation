@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37385" started-at="2022-02-16T20:45:12 EST" finished-at="2022-02-16T20:45:50 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37385" started-at="2022-02-16T20:45:12 EST" finished-at="2022-02-16T20:45:50 EST">
+      <class name="com.actitime.testcase.LoginPageTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="setUp" is-config="true" duration-ms="5452" started-at="2022-02-16T20:45:13 EST" finished-at="2022-02-16T20:45:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginFunction(java.lang.String,java.lang.String)[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="testLoginFunction" duration-ms="2507" started-at="2022-02-16T20:45:18 EST" data-provider="actiData" finished-at="2022-02-16T20:45:21 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="tearDown" is-config="true" duration-ms="741" started-at="2022-02-16T20:45:21 EST" finished-at="2022-02-16T20:45:22 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="setUp" is-config="true" duration-ms="4632" started-at="2022-02-16T20:45:22 EST" finished-at="2022-02-16T20:45:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginFunction(java.lang.String,java.lang.String)[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="testLoginFunction" duration-ms="2418" started-at="2022-02-16T20:45:26 EST" data-provider="actiData" finished-at="2022-02-16T20:45:29 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="tearDown" is-config="true" duration-ms="742" started-at="2022-02-16T20:45:29 EST" finished-at="2022-02-16T20:45:29 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="setUp" is-config="true" duration-ms="4442" started-at="2022-02-16T20:45:29 EST" finished-at="2022-02-16T20:45:34 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testLoginFunction(java.lang.String,java.lang.String)[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="testLoginFunction" duration-ms="4003" started-at="2022-02-16T20:45:34 EST" data-provider="actiData" finished-at="2022-02-16T20:45:38 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate an element using xpath=//a[@class='userProfileLink username ']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LABUPAMA', ip: '192.168.67.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[@class='userProfileLink username ']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LABUPAMA', ip: '192.168.67.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.getText(Unknown Source)
+at com.actitime.testcase.EnterTimePage.verifyUserLoggedIn(EnterTimePage.java:24)
+at com.actitime.testcase.LoginPageTests.testLoginFunction(LoginPageTests.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="tearDown" is-config="true" duration-ms="699" started-at="2022-02-16T20:45:38 EST" finished-at="2022-02-16T20:45:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="setUp" is-config="true" duration-ms="4423" started-at="2022-02-16T20:45:39 EST" finished-at="2022-02-16T20:45:43 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testValidateActiLogoDisplayed()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="testValidateActiLogoDisplayed" duration-ms="93" started-at="2022-02-16T20:45:43 EST" finished-at="2022-02-16T20:45:43 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateActiLogoDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="tearDown" is-config="true" duration-ms="744" started-at="2022-02-16T20:45:43 EST" finished-at="2022-02-16T20:45:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="setUp" is-config="true" duration-ms="5018" started-at="2022-02-16T20:45:44 EST" finished-at="2022-02-16T20:45:49 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testValidateLoginPageDisplayed()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="testValidateLoginPageDisplayed" duration-ms="10" started-at="2022-02-16T20:45:49 EST" finished-at="2022-02-16T20:45:49 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLoginPageDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.actitime.testcase.LoginPageTests@3ecd23d9]" name="tearDown" is-config="true" duration-ms="742" started-at="2022-02-16T20:45:49 EST" finished-at="2022-02-16T20:45:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.testcase.LoginPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
