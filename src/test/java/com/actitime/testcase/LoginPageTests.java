@@ -25,23 +25,11 @@ public class LoginPageTests extends BaseTest {
 		lp.enterUserName(username);
 		lp.enterPassword(password);
 		lp.clickLoginButton();
-		String actual = etp.verifyUserLoggedIn();
+		String actual = ep.verifyUserLoggedIn();
 		System.out.println(actual);
-		etp.clickLogout();
+		ep.clickLogout();
 	}
 
-	@DataProvider(name = "actiData")
-	public Object[][] testData() {
-		ExcelLib excel = new ExcelLib("./actestdata/actidata.xlsx");
-		int rows = excel.getRowCount(0);
 
-		Object[][] data = new Object[rows][2];
-
-		for (int i = 0; i < rows; i++) {
-			data[i][0] = excel.getCellData(0, i, 0);
-			data[i][1] = excel.getCellData(0, i, 1);
-		}
-		return data;
-	}
 
 }

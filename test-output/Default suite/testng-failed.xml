@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.actitime.testcase.LoginPageTests">
+      <class name="com.actitime.testcase.CreateCustomer">
         <methods>
+          <include name="setReport"/>
           <include name="setUp"/>
-          <include name="testLoginFunction" invocation-numbers="2"/>
           <include name="tearDown"/>
+          <include name="testCreateCustomer"/>
         </methods>
-      </class> <!-- com.actitime.testcase.LoginPageTests -->
+      </class> <!-- com.actitime.testcase.CreateCustomer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
